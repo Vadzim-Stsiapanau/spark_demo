@@ -23,7 +23,7 @@ After install all staff you need like jupyter notebook, pandas, numpy, pyspark(y
 ### Msvcr100.dll
 
 If you have Visual Studio c++ skip this step.
-If you don't have dollow this guide https://www.computer-setup.ru/msvcr100-dll-chto-eto-za-oshibka-kak-ispravit?ysclid=l84uyxs1qq310355183 to install Msvcr100.dll.
+If you don't have follow this guide https://www.computer-setup.ru/msvcr100-dll-chto-eto-za-oshibka-kak-ispravit?ysclid=l84uyxs1qq310355183 to install Msvcr100.dll.
 
 ## Installation guide 
 
@@ -52,8 +52,8 @@ version of Hadoop). Choose download like below.
 
 ### Winutils.exe
 
-Windows users need also install winutils.exe to work with Spark. Go to this page https://github.com/steveloughran/winutils. If you don't find your version here, find 
-it in another sources. For the versions that are like mine, winutils is always in folder. 
+Windows users need also install winutils.exe to work with Spark. Go to this page https://github.com/steveloughran/winutils. You can find winutils.exe in hadoop-<version>\bin.
+If you don't find your version here, find it in another sources.
 
 ### Unpacking 
 
