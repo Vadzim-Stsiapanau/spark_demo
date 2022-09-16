@@ -52,7 +52,7 @@ version of Hadoop). Choose download like below.
 
 ### Winutils.exe
 
-Windows users need also install winutils.exe to work with Spark. Go to this page https://github.com/steveloughran/winutils. You can find winutils.exe in hadoop-<version>\bin.
+Windows users need also install winutils.exe to work with Spark. Go to this page https://github.com/steveloughran/winutils. You can find winutils.exe in hadoop-'version'\bin.
 If you don't find your version here, find it in another sources.
 
 ### Unpacking 
