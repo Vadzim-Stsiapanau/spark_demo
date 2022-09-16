@@ -63,7 +63,7 @@ spark-3.1.3-bin-hadoop2.7\bin.
 ### Last step
 
 This is the last step. Use win+r and write sysdm.cpl, click ok. Click on Additionally, Environment Variables. 
-You need to create 3 variables for user(first window):
+You need to create 3 variables in system variables(second window):
 - JAVA_HOME=...\Java\jdk-8;
 - HADOOP_HOME=...\hadoop-2.7.0; 
 - SPARK_HOME=...\spark-3.1.3-bin-hadoop2.7.
