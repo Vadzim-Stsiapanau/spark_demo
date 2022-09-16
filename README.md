@@ -10,6 +10,8 @@ This README contains instuction on how to install PySpark on your local Windows 
 
 ## Pre-requirements
 
+### Python
+
 You need have Python on your local machine. If you don't have it, go to https://www.python.org/downloads/windows/ and install latest version.
 After the installation is complete, close the Command Prompt if it was already open, reopen it and check if you can successfully run 
 ```
@@ -17,6 +19,11 @@ python --version
 ```
 command.
 After install all staff you need like jupyter notebook, pandas, numpy, pyspark(you can easily find guides in the Web).
+
+### Msvcr100.dll
+
+If you have Visual Studio c++ skip this step.
+If you don't have dollow this guide https://www.computer-setup.ru/msvcr100-dll-chto-eto-za-oshibka-kak-ispravit?ysclid=l84uyxs1qq310355183 to install Msvcr100.dll.
 
 ## Installation guide 
 
