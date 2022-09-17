@@ -4,6 +4,8 @@
 ## Description
 
 This README contains instuction on how to install PySpark on your local Windows machine and start on it jobs.
+Note 1: you also need to register on kaggle(for example using your google account) to download datasets.
+Note 2: you alse need to have microsoft sql server(you can find how download it in internet).
 
 <p align="center">
 <img src="http://habrastorage.org/getpro/habr/post_images/550/b31/bd9/550b31bd91269dd77ce8b0041798d8f8.png" width="80%"></p>
@@ -18,7 +20,7 @@ After the installation is complete, close the Command Prompt if it was already o
 python --version
 ```
 command.
-After install all staff you need like jupyter notebook, pandas, numpy, pyspark(you can easily find guides in the Web).
+After this install jupyter notebook, pandas, numpy, pyspark(you can easily find guides in the Web) and all other staff you need.
 
 ### Msvcr100.dll
 
@@ -32,8 +34,8 @@ For other people you need to go throw all installation guide.
 
 ### Java
 
-First of all you need to install Java jdk 7<=version<=11. I really recommended to install Java jdk version 8 to not have problems with versions. For the moment
-you can't download Java from Oracle archive from Belarus. Try to use VPN or download it from external sources.
+First of all you need to install Java JDK 7<=version<=11. I really recommended to install Java JDK version 8 to not have problems with versions. For the moment
+you can't download Java JDK from Oracle archive from Belarus. Try to use VPN or download it from external sources.
 
 ### Spark
 
