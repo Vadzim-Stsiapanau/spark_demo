@@ -4,7 +4,7 @@
 ### Description
 
 In this task you will create local SparkSession and work with main functionality of PySpark.
-All useful information you can find in "Useful articles". Tasks will be in in PySpark_Basics notebook and unswers in Unswer_PySpark_Basics notebook.
+All useful information you can find in "Useful articles". Tasks will be in in PySpark_Basics notebook and answers in Answer_PySpark_Basics notebook.
 
 ### Additional Requirements
 
