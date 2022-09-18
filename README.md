@@ -4,8 +4,6 @@
 ## Description
 
 This README contains instuction on how to install PySpark on your local Windows machine and start on it jobs.
-Note 1: you also need to register on kaggle(for example using your google account) to download datasets.
-Note 2: you alse need to have microsoft sql server(you can find how download it in internet).
 
 <p align="center">
 <img src="http://habrastorage.org/getpro/habr/post_images/550/b31/bd9/550b31bd91269dd77ce8b0041798d8f8.png" width="80%"></p>
@@ -20,12 +18,20 @@ After the installation is complete, close the Command Prompt if it was already o
 python --version
 ```
 command.
-After this install jupyter notebook, pandas, numpy, pyspark(you can easily find guides in the Web) and all other staff you need.
+After this install jupyter notebook, pandas, numpy, pyspark and findspark(you can easily find guides in the Web) and all other staff you need.
 
 ### Msvcr100.dll
 
 If you have Visual Studio c++ skip this step.
 If you don't have follow this guide https://www.computer-setup.ru/msvcr100-dll-chto-eto-za-oshibka-kak-ispravit?ysclid=l84uyxs1qq310355183 to install Msvcr100.dll.
+
+### Kaggle
+
+You also need to register on kaggle(for example using your google account) to download datasets.
+
+### Microsoft SQL Server
+
+You alse need to have microsoft sql server(you can find how download it in internet).
 
 ## Installation guide 
 
