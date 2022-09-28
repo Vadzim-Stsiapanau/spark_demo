@@ -107,5 +107,5 @@ spark-class org.apache.spark.deploy.master.Master
 на Windows(ток Линуха). Поэтому мы будем делать всё ручками.
 После выполнения кода выше, должен быть такой вывод
 
-
+![image](https://user-images.githubusercontent.com/113685144/192796311-57f796a6-c35e-4aac-9ee3-d9467c5a2da0.png)
 
