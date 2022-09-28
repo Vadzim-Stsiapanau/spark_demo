@@ -160,8 +160,11 @@ update, delete, ну и самое главное merge. Да вы можете 
 
 - managed таблица - это таблица которая полностью управляется спарком, а именно спарк хранит не только мета-информацию в Hive metastore, но ещё и сами файлы этой таблицы
 в Spark warehouse. Удалите таблицу и удалите не только мета-информацию, но ещё и сами данные. Создаётся так: 
+
 spark.sql("CREATE TABLE employee (name STRING, emp_id INT,salary INT, joining_date STRING)")
+
 или так 
+
 df= spark.read.format("csv").option("inferSchema","true").load("/FileStore/tables/Order.csv")
 df.write.saveAsTable("OrderTable").
 
