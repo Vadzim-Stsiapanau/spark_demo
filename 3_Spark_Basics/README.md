@@ -210,8 +210,8 @@ https://spark.apache.org/docs/3.0.0-preview/web-ui.html#:~:text=Apache%20Spark%2
 Вот небольшое пояснение на cache и persist, которые встретятся в статье: https://stackoverflow.com/questions/26870537/what-is-the-difference-between-cache-and-persist. 
 Также необходимо посмотреть как запускается spark application: https://sparkbyexamples.com/spark/spark-submit-command/.
 
-Т.к. аналитика в Spark UI доступна только в риал лайф, то необходимо настроить папку для хранения истории этой аналитики, чтобы потом можно было смотреть. Для этого у вас
-уже есть папка for_history. Чтобы там хранилась истории и после вы могли смотреть всю статистику в History Server вам необходимо вписать эти строки:
+Т.к. аналитика в Spark UI доступна только в риал лайф, то необходимо настроить папку для хранения истории этой аналитики, чтобы потом можно было смотреть. Для этого вам надо
+создать в этой директории(3_Spark_Basics) папку for_history. Чтобы там хранилась истории и после вы могли смотреть всю статистику в History Server вам необходимо вписать эти строки:
 
 ```
 spark.eventLog.enabled true
