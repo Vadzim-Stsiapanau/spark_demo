@@ -217,9 +217,9 @@ https://spark.apache.org/docs/3.0.0-preview/web-ui.html#:~:text=Apache%20Spark%2
 spark.eventLog.enabled true
 spark.eventLog.dir file:///C:/Users/stepa/Desktop/spark_demo/3_Spark_Basics/for_history
 spark.history.fs.logDirectory file:///C:/Users/stepa/Desktop/spark_demo/3_Spark_Basics/for_history
-
 ```
-со своим путём разумеется на папку. Вписать их необходимо в файл spark-defaults.conf который находится по этому пути ...\spark-3.1.3-bin-hadoop2.7\conf.
+со своим путём разумеется на папку. Вписать их необходимо в файл spark-defaults.conf который находится по этому пути ...\spark-3.1.3-bin-hadoop2.7\conf. Также необходимо
+удалить .template из имени spark-defaults.conf.template(если вы не видите template то включите вид->расширения имён файлов).
 Также необходимо запустить history server. Для этого открываем cmd и там пишем:
 
 ```
@@ -228,6 +228,14 @@ spark-class org.apache.spark.deploy.history.HistoryServer
 
 Эта команда запустит сервер, который будет читать историю отработанных приложений, адрес сервера будет указан после выполнения команды(так же как и было с адресом мастера). 
 Поэтому после завершения выполнения приложения необходимо идти по тому адресу который будет указан при запуске history server и смотреть на ваше приложение.
+
+Для того чтобы Spark видел Python 100%, переименуйте файл spark-env.sh.template в spark-env.cmd и добавьте туда строки ниже
+(файл лежит по этому пути ...\spark-3.1.3-bin-hadoop2.7\conf). Естественно пути надо прописать свои, они будут почти такие же.
+
+```
+set PYSPARK_PYTHON=C:\users\stepa\appdata\local\programs\python\python39\python.exe
+set PYSPARK_DRIVER_PYTHON=C:\users\stepa\appdata\local\programs\python\python39\python.exe
+```
 
 Файл с кодом уже готов и называется spark_basics.py, в нём необходимо поменять пути для считывания df_people, df_country, df_parquet и для записи df_last, plans1.txt И plans.txt.
 После его требуется запустить и посмотреть на различные метрики в Spark UI(если не успеете за время выполнения приложения, то бегом в history server), а также 
