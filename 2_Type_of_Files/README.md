@@ -1,12 +1,10 @@
 <h1 align="center">Types of files</h1>
 
 
-### Description
+## Description
 
 In this task you will see more information about different types of files.
 Also this topic will be mixed in languages(Russian+English)
-
-### Information (must read)
 
 ## Parquet
 

@@ -1,17 +1,17 @@
 <h1 align="center">PySpark Basics</h1>
 
 
-### Description
+## Description
 
 In this task you will create local SparkSession and work with main functionality of PySpark.
 All useful information you can find in "Useful articles". Tasks will be in in PySpark_Basics notebook and answers in Answer_PySpark_Basics notebook.
 
-### Additional Requirements
+## Additional Requirements
 
 - Jupyter Notebook
 - download and unpack this dataset https://www.kaggle.com/datasets/ruchi798/data-science-job-salaries?resource=download, put in folder PySpark_Basics. You can find all info about it in kaggle.
 
-### Useful articles (must read)
+## Useful articles (must read)
 
 Note 1: to display in your code the time that a cell is running, write at the beginning of cell %%time(in the first row)
 Note 2: to use PySpark from Jupyter Notebook, add 
