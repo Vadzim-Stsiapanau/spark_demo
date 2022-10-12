@@ -1,4 +1,4 @@
-<h1 align="center">Types of files</h1>
+<h1 align="center">Questions for interview</h1>
 
 
 ## Description
@@ -31,3 +31,7 @@ shuffle всегда). Логику того как под капотом это
 19) Delta Lake и почему он
 20) Менеджмент памяти на уровне JVM+overhead
 21) Менеджмент памяти на полном уровне(если это PySpark то там не ток JVM и overhead)
+22) Parquet - что это(рассказать всё что знаешь)
+23) Нюансы при чтении JSON
+24) Нюансы при чтении CSV
+25) Broadcast variables
