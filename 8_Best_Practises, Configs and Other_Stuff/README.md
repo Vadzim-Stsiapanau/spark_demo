@@ -14,7 +14,7 @@
 Databricks runs one executor per worker node; therefore the terms executor and worker are used interchangeably in the context of the Databricks architecture).
 Вот статья про настройку: https://habr.com/ru/company/otus/blog/529100/?ysclid=l91eg9e2n6388772772.
 
-Теперь немного от себя:
+Теперь немного от себя(от Microsoft Azure):
 
 1) Ваша задача сложная аналитика: тогда вам подойдёт один, но очень мощный executor. Все достаточно просто, в аналитике вы скорее всего будете часто аггрегировать по 
 разным полям, далеть оконки и т.д. Из-за этого будет постоянное перемещение данных с одного executor в другой. А если executor один то проблемы нет. Главное
