@@ -93,7 +93,7 @@ Broadcast variables: https://sparkbyexamples.com/spark/spark-broadcast-variables
 
 ## Как считывать файлы
 
-Короче, как-то видел одну крутую статью но потерял её а найти не смог. Поэтому буду своими словами.
+Сначала своими словами.
 spark.default.parallelism (default: Total No. of CPU cores) — для RDD, количество партиций после shuffle, ну и как увидим для вычисления размера
 spark.sql.files.maxPartitionBytes (128 mb default) — размер данных при чтении с файла
 spark.sql.files.openCostInBytes (default: 4 MB) — размер дополнительных данных при чтении с файла(учитывается только после того как мы упаковали часть файла, пример: 
@@ -109,6 +109,8 @@ bytesPerCore = (Sum of sizes of all data files + No. of files * openCostInBytes)
 у меня у самого есть вопрос, а что если файл паркет, он же после того как данные считает получит данных в разы больше(паркет же сжимает). Тут я конечно бессилен ибо сам
 не знаю, оставляю этот вопрос открытым. Вообще вы спросите а зачем это надо? Чтобы знать какое число партиций будет у вас после прочтения файлов и на самом деле
 менеджить это число надо почти всегда хотя бы приблизительно.
+
+Вот статья: https://dzone.com/articles/guide-to-partitions-calculation-for-processing-dat.
 
 ## Как сохранять файлы
 
